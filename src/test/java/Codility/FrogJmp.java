@@ -3,7 +3,7 @@ package Codility;
 public class FrogJmp {
 
 
-        public int solution(int X, int Y, int D) {
+        public static int solution(int X, int Y, int D) {
 
             int initialJumpCount = (Y-X) / D;
 
@@ -16,6 +16,9 @@ public class FrogJmp {
 
 
     public static void main(String[] args) {
+        FrogJmp fr = new FrogJmp();
+        System.out.println("fr.solution(10,85,30) = " + fr.solution(10, 85, 30));
+
 
     }
 }
