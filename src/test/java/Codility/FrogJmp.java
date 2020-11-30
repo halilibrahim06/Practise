@@ -3,7 +3,7 @@ package Codility;
 public class FrogJmp {
 
 
-        public static int solution(int X, int Y, int D) {
+        public int solution(int X, int Y, int D) {
 
             int initialJumpCount = (Y-X) / D;
 
